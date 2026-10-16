@@ -1,9 +1,9 @@
 {
-  "versionCode": 6,
-  "versionName": "4.2.0",
-  "apkUrl": "https://github.com/artwinleslie-glitch/SmartMirrorPTOTA/releases/download/v4.2.0/app-release.apk",
-  "apkUrlCn": "https://ghfast.top/https://github.com/artwinleslie-glitch/SmartMirrorPTOTA/releases/download/v4.2.0/app-release.apk",
-  "changelog": "1. Face registration consent dialog - asks for agreement before collecting facial data\n2. User data auto-cleanup - choose retention period (1 day / 7 days / 1 month / permanent) during registration, expired users auto-deleted on app startup\n3. 3-second long-press to delete shortcuts with visual progress ring (prevents accidental deletion)",
-  "md5": "c78adbe68aeac191966d16f850579e92",
+  "versionCode": 8,
+  "versionName": "4.3.0",
+  "apkUrl": "https://github.com/artwinleslie-glitch/SmartMirrorPTOTA/releases/download/v4.3.0/app-release.apk",
+  "apkUrlCn": "https://ghfast.top/https://github.com/artwinleslie-glitch/SmartMirrorPTOTA/releases/download/v4.3.0/app-release.apk",
+  "changelog": "1. Fix face detection failure on Rockchip devices - added rotation fallback (tries 0/90/180/270 degrees), upgraded to ACCURATE mode, lowered min face size\n2. Add diagnostic logging for face analysis pipeline (image size, rotation, detection results)\n3. Fix OTA signature conflict detection - guides user to uninstall old version when signatures mismatch\n4. Fix OTA check-update false positive when config fetch fails",
+  "md5": "280a77b0bb314c528e6af9f3af15878b",
   "forceUpdate": false
 }
