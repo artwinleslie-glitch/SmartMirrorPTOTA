@@ -1,9 +1,9 @@
 {
-  "versionCode": 8,
-  "versionName": "4.3.0",
-  "apkUrl": "https://github.com/artwinleslie-glitch/SmartMirrorPTOTA/releases/download/v4.3.0/app-release.apk",
-  "apkUrlCn": "https://ghfast.top/https://github.com/artwinleslie-glitch/SmartMirrorPTOTA/releases/download/v4.3.0/app-release.apk",
-  "changelog": "1. Fix face detection failure on Rockchip devices - added rotation fallback (tries 0/90/180/270 degrees), upgraded to ACCURATE mode, lowered min face size\n2. Add diagnostic logging for face analysis pipeline (image size, rotation, detection results)\n3. Fix OTA signature conflict detection - guides user to uninstall old version when signatures mismatch\n4. Fix OTA check-update false positive when config fetch fails",
-  "md5": "280a77b0bb314c528e6af9f3af15878b",
+  "versionCode": 9,
+  "versionName": "4.3.1",
+  "apkUrl": "https://github.com/artwinleslie-glitch/SmartMirrorPTOTA/releases/download/v4.3.1/app-release.apk",
+  "apkUrlCn": "https://ghfast.top/https://github.com/artwinleslie-glitch/SmartMirrorPTOTA/releases/download/v4.3.1/app-release.apk",
+  "changelog": "1. Fix skin age always showing 38 - now calculated from actual skin tone analysis (brightness, redness, dullness) instead of random number\n2. Skin age now factors in user's actual age for realistic estimation",
+  "md5": "c3a52ccfa1fabf9c6ed17613ac03490e",
   "forceUpdate": false
 }
